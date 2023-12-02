@@ -13,3 +13,11 @@
  ```
  git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
 ```
+
+## nginx
+
+* Restart
+
+```
+nginx -s restart
+```
