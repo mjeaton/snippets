@@ -21,3 +21,11 @@
 ```
 nginx -s restart
 ```
+
+## Misc Mac commands
+
+* Dump environment variables to the screen
+
+```
+printenv
+```
