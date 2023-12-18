@@ -27,5 +27,5 @@ nginx -s restart
 * Dump environment variables to the screen
 
 ```
-printenv
+printenv | sort
 ```
