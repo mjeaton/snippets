@@ -29,3 +29,11 @@ nginx -s restart
 ```
 printenv | sort
 ```
+
+## Powershell stuff
+
+* Dump environment variables to the screen
+
+```
+gci env:
+```
