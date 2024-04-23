@@ -8,6 +8,12 @@
  git branch --merged | egrep -v "(^\*|master|main)" | xargs git branch -d
 ```
 
+* Remove remote branches that have been merged
+
+```
+ git remote prune origin
+``` 
+
 * Sorting local branches by last commit date
 
  ```
